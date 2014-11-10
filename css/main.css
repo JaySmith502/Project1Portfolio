@@ -1,0 +1,80 @@
+body {
+    background-color: #d3d3d3;
+/**horizontal dark blue lines in page**/;
+}
+
+#byline {
+    background-color: #4eae47;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.banner {
+    text-align: right;
+    color: #06192e;
+    text-decoration: underline;
+    font-family: 'Shojumaru', cursive;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    .examples h3 {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .coach img {
+        display: none;
+    }
+}
+
+.row {
+    background-color: #4eae47;
+}
+
+#share-buttons {
+    display: inline;
+}
+
+.hr {
+    color: #06192e;
+    background-color: #06192e;
+    width: 65%;
+    height: 4px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.featured {
+    text-align: left;
+    color: #06192e;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.examples h2 {
+    text-align: center;
+    font-family: 'Shojumaru', cursive;
+    color: #06192e;
+}
+
+#share-buttons img {
+    border: 0;
+    box-shadow: none;
+    min-width: 25px;
+    display: inline;
+}
+
+#share-buttons {
+    background-color: #4eae47;
+    width: 50%;
+    text-align: right;
+    padding: 5px 10px 5px 0;
+}
